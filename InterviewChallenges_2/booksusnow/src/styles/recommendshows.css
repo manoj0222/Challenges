@@ -1,0 +1,82 @@
+.recommendshows-parent{
+    width:100%;
+    height: auto;
+    padding: 0px;
+}
+.recommendshows-container{
+    width:100%;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto;
+}
+
+.recommendshows-headerright,.recommendshows-headerleft{
+    color: white;
+    display: inline-block;
+    background-color:none;
+    
+}
+.recommendshows-headericon{
+  color:white;
+  margin-left: 10%;
+  text-align: center;
+}
+.recommendshows-headerright{
+ float: left;
+}
+.recommendshows-headerleft{
+  float: right;
+}
+.shows-scroll {
+  overflow: hidden;
+ }
+  
+.recommendshows-cardcontent {
+    width: calc(100% + 20px);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    overflow-x: auto;
+    /* Add padding for spacing between cards */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+    -ms-overflow-style: none; /* Hide scrollbar for IE/Edge */
+    scroll-behavior: smooth;
+}
+  
+.recommendshows-cardcontent::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+}
+
+  .ui.card {
+    flex: 0 0 auto; /* Ensure cards don't shrink */
+    width: auto; /* Set card width */
+    border: 1px solid #ccc; /* Apply border to each card */
+    margin-left: 2%;
+}
+  
+  .ui.card .image {
+     height: 250px;/* Set image height */
+     object-fit: cover; /* Maintain aspect ratio */
+  }
+  
+  /* Style for card content */
+  .ui.card .content {
+    padding: 10px;
+  }
+  
+  /* Style for card header */
+  .ui.card .header {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Style for card meta */
+  .ui.card .meta {
+    font-size: 14px;
+  }
+  
+  /* Style for card description */
+  .ui.card .description {
+    font-size: 14px;
+  }
+

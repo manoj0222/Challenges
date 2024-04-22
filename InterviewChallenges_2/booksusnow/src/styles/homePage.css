@@ -1,0 +1,36 @@
+.homePage-appDescription{
+  border: 1px solid black;
+  text-align: center;
+  padding-left: 19%;
+  height: 92vh;
+  width: 100%;
+}
+
+.homePage-appDescription-image{
+  width:100%;
+} 
+.homePage-appDescription {
+  background-image: url('../Images/Banner.svg');
+  object-fit: cover;
+}
+.home-description-container > .main-heading,
+.home-description-container > .sub-heading{
+     width:78%;
+     color:#e9ecee;
+     left: 20%;
+
+}
+.home-description-container > .main-heading{
+  margin-top: 12%;
+  font-size: 2.8em;
+  word-spacing: 0.1em;
+}
+.home-description-container > .sub-heading{
+  font-size: 1.3em;
+}
+.homePage-Recommendshows{
+  width:90%;
+  margin-left: 6%;
+  margin-top: -12%;
+  
+}
