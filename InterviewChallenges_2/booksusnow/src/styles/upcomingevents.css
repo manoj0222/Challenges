@@ -1,0 +1,49 @@
+.upcomineventparent{
+  display:grid;
+  width:100%;
+  grid-template-columns: auto auto auto;
+  margin-top: 4%;
+  row-gap: 1%;
+  margin-left: 6%;
+}
+
+.upcoming-eventcardcontainer{
+    width: 250px;
+    height:200px;
+    border-radius: 2%;
+    border: 1px solid black;
+}
+
+.upcoming-eventcardthumbnail{
+    height: 78%;
+    border-radius: 2%;
+}
+.upcoming-eventcardimg{
+    width: 100px;
+    background-color: aqua;
+}
+.upcoming-eventname{
+    margin-left: 3%;
+    font-size: 0.9em;
+}
+.upcoming-eventcard-locoation{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+    
+}
+.location-name,.location-right{
+    font-size: 0.8em;
+    font-weight: 600;
+    color: rgb(154, 148, 148);
+}
+.location-right{
+    display: flex;
+    align-items:center;
+    justify-content: end;
+    
+    
+}
+
