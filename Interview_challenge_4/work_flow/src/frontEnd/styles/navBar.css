@@ -1,0 +1,10 @@
+.navigationMenu{
+    display: block;
+    font-size: 2em;
+    padding: 3%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navigationMenu:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
